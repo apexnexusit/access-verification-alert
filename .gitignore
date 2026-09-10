@@ -1,0 +1,13 @@
+# Local runtime and sensitive configuration
+.venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Downloaded tunnel binary / local archives
+cloudflared
+*.tar.gz
+
+# Editor / OS files
+.vscode/
+.DS_Store
